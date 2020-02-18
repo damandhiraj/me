@@ -2,7 +2,7 @@
   "name": "business-portfolio-react-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://damandhiraj.github.io/Daman_Dhiraj_Business_Portfolio",
+  "homepage": "https://damandhiraj.github.io/me",
   "dependencies": {
     "@material-ui/core": "^4.9.3",
     "@material-ui/icons": "^4.9.1",
@@ -20,7 +20,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "predeploy": "yarn run build",
-		"deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b master -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
